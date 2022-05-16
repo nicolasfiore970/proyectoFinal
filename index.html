@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>One Page</title>
-	<!-- CSS Bootstrap !-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<!-- CSS Personalizada !-->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<!-- Fonte par Icones !-->
+	<meta name="description"
+		content="Esta es una pagina web donde podrás encontrar cursos de inglés de la Academia Online llamada English By Heart, así como también información sobre los niveles de ingles a nivel mundial, las fundadoras de la Academia, una tienda online para comprar cositas que te ayudaran en tu aprendizaje, entre otras cosas">
+	<meta name="keywords" content="INGLES, ACADEMIA, CURSOS, APRENDER, IDIOMAS">
+	<link rel="shortcut icon" href="./img/favicon.png" type="logoimagen" />
+	<title>English By Heart ♥</title>
+	<!-- Fuente para iconos !-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
 		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/estilo.css">
 </head>
 
 <body>
@@ -29,20 +31,25 @@
 				<div id="menu" class="collapse navbar-collapse">
 					<ul class="navbar-nav mr-auto text-light">
 						<li class="nav-item">
-							<a href="#sobrenosotros" class="nav-link text-light font-weight-bold scroll-page">Sobre
-								Nosotros</a>
+							<a href="/index.html" class="nav-link text-light font-weight-bold">Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a href="#contacto" class="nav-link text-light font-weight-bold scroll-page">Contacto</a>
+							<a href="./pages/sobrenosotros.html"
+								class="nav-link text-light font-weight-bold scroll-page">Sobre Nosotros</a>
 						</li>
 						<li class="nav-item">
-							<a href="#cursos" class="nav-link text-light font-weight-bold scroll-page">Cursos</a>
+							<a href="./pages/contacto.html"
+								class="nav-link text-light font-weight-bold scroll-page">Contacto</a>
 						</li>
 						<li class="nav-item">
-							<a href="#niveles" class="nav-link text-light font-weight-bold">Niveles</a>
+							<a href="./pages/cursos.html"
+								class="nav-link text-light font-weight-bold scroll-page">Cursos</a>
 						</li>
 						<li class="nav-item">
-							<a href="#tienda" class="nav-link text-light font-weight-bold">Tienda</a>
+							<a href="./pages/niveles.html" class="nav-link text-light font-weight-bold">Niveles</a>
+						</li>
+						<li class="nav-item">
+							<a href="./pages/tienda.html" class="nav-link text-light font-weight-bold">Tienda</a>
 						</li>
 					</ul>
 					<a href="#buscar" class="btn col-md-3 btn-buscar">Buscar</a>
@@ -50,7 +57,7 @@
 			</nav>
 		</header>
 	</div>
-	
+
 	<!--Seccion de Directivos!-->
 	<div id="servicos" class="container-fluid bg-servicios">
 		<div class="">
@@ -60,20 +67,38 @@
 						<span class="underline"></span>
 					</h2>
 				</header>
-				<div class="row py-4">
-					<div class="col-md-4">
-						<img src="img/profesora1.jpg" class="img-fluid">
-						<p class="text-center text-light mt-2">Ainara Della Valle CEO</p>
-					</div>
-					<div class="col-md-4">
-						<img src="img/profesora2.jpg" class="img-fluid">
-						<p class="text-center text-light mt-2">Florencia Ibarra CEO</p>
-					</div>
-					<div class="col-md-4">
-						<img src="img/profesora3.jpg" class="img-fluid">
-						<p class="text-center text-light mt-2">Mariela Granados Docente</p>
-					</div>
-				</div>
+				<div class="grid">
+                    <div class="directivos">
+                      <figure>
+                        <img src="/img/profesora1.jpg" alt="grid" />
+                      </figure>
+                      <div class="contenido">
+                        <h4>Directora</h4>
+                        <h5>Ainara Della Valle</h5>
+                      
+                      </div>
+                    </div>
+            
+                    <div class="directivos">
+                      <figure>
+                        <img src="/img/profesora2.jpg" alt="grid" />
+                      </figure>
+                      <div class="contenido">
+                        <h4>Vicedirectora</h4>
+                        <h5>Mariela Brow</h5>
+                      
+                      </div>
+                    </div>
+            
+                    <div class="directivos">
+                      <figure><img src="/img/profesora3.jpg" alt="grid" /></figure>
+                      <div class="contenido">
+                        <h4>Profesora</h4>
+                        <h5>Florencia Ibarra</h5>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 			</section>
 		</div>
 	</div>

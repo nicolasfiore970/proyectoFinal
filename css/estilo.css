@@ -1,8 +1,8 @@
-.bg-topo{
+.bg-topo {
 	background-color: #da93e4;
 }
 
-.btn-buscar{
+.btn-buscar {
 	border: 2px solid #fff;
 	background: none;
 	position: relative;
@@ -12,7 +12,7 @@
 	height: 100%;
 }
 
-.btn-buscar:hover{
+.btn-buscar:hover {
 	color: #68627a;
 	background: #fff;
 	border-color: #fff;
@@ -21,34 +21,34 @@
 	-webkit-transition: all .50s ease-in-out;
 }
 
-.bg-servicios{
+.bg-servicios {
 	background: #da93e4;
 }
 
-.bg-tiendaonline{
+.bg-tiendaonline {
 	background-color: #da93e4;
 }
 
-.padding-tiendaonline{
+.padding-tiendaonline {
 	padding: 2px !important;
 }
 
-.bg-parallax{
+.bg-parallax {
 	background: url(../img/bg.jpg) fixed;
 	position: relative;
 }
 
-.fatos{
+.fatos {
 	text-align: center;
 	color: #fff;
 }
 
-.fatos .icon i{
+.fatos .icon i {
 	font-size: 50px;
 	color: #fff;
 }
 
-.fatos h3{
+.fatos h3 {
 	font-size: 35px;
 	color: #fff;
 	margin-bottom: 5px;
@@ -56,14 +56,14 @@
 	letter-spacing: 1px;
 }
 
-.fatos h4{
+.fatos h4 {
 	font-size: 20px;
 	font-weight: 400;
 	color: #fff;
 	letter-spacing: 1px;
 }
 
-.tabladecursos{
+.tabladecursos {
 	padding: 0 0 40px 0;
 	margin: 0 auto;
 	margin-bottom: 5px;
@@ -72,7 +72,7 @@
 	border: 1px solid #f1f1f1;
 }
 
-.tabladecursos .precio h2{
+.tabladecursos .precio h2 {
 	font-size: 26px;
 	font-weight: 700;
 	color: #333;
@@ -82,7 +82,7 @@
 	padding: 30px 0;
 }
 
-.tabladecursos .precio span{
+.tabladecursos .precio span {
 	display: block;
 	font-size: 48px;
 	font-weight: 400;
@@ -90,19 +90,19 @@
 	margin-bottom: 20px;
 }
 
-.tabladecursos .precio ul{
+.tabladecursos .precio ul {
 	margin-bottom: 35px;
 	padding: 0 !important;
 }
 
-.tabladecursos .precio ul li{
+.tabladecursos .precio ul li {
 	padding: 10px;
 	font-size: 15px;
 	border-bottom: 1px dotted #da93e4;
 	list-style: none;
 }
 
-.btn-precio{
+.btn-precio {
 	border: 1px solid #ff3859;
 	background-color: #ff3859;
 	position: relative;
@@ -111,7 +111,7 @@
 	border-radius: 30px;
 }
 
-.btn-precio:hover{
+.btn-precio:hover {
 	color: #fff;
 	background: #da93e4;
 	border-color: #4c465f;
@@ -120,11 +120,11 @@
 	-webkit-transition: all .50s ease-in-out;
 }
 
-.bg-rodape1{
+.bg-rodape1 {
 	background-color: #da93e4;
 }
 
-.bg-rodape1 ul{
+.bg-rodape1 ul {
 	-webkit-padding-start: 0;
 }
 
@@ -132,23 +132,23 @@
 	list-style: none;
 }
 
-.bg-card-rodape{
+.bg-card-rodape {
 	background-color: #ff3859;
 }
 
-.icon-banner-rodape{
+.icon-banner-rodape {
 	color: #c42841;
 }
 
-.bg-rodape2{
+.bg-rodape2 {
 	background-color: #da93e4;
 }
 
-a.icone-social{
-	color: #b3aec2;
+a.icone-social {
+	color: #ffffff;
 }
 
-.underline{
+.underline {
 	content: '';
 	border-top: 2px solid #ff3859;
 	width: 70px;
@@ -157,7 +157,7 @@ a.icone-social{
 	margin: 0 auto;
 }
 
-.underline-footer{
+.underline-footer {
 	content: '';
 	border-top: 2px solid #ff3859;
 	width: 70px;
@@ -165,10 +165,74 @@ a.icone-social{
 	margin-top: 5px;
 }
 
-.sombra:hover{
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1)
+.sombra:hover {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1)
 }
 
 .py-4 {
 	background-color: #da93e4
 }
+
+.tabla {
+	border: 1px solid black;
+	margin-top: 50px;
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:nth-child(even):hover {
+	background-color: #ddd;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #04aa6d;
+	color: white;
+}
+
+.directivos {
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+	padding: 15px;
+	text-align: center; }
+	.directivos:hover {
+	  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	  transform: translateY(-3%); }
+  
+  .grid .directivos .contenido {
+	padding: 15px;
+	text-align: center; }
+
+	.grid {
+		width: 100%;
+		display: flex;
+		max-width: 1100px;
+		margin: auto; }
+		.grid img {
+		  width: 200px;
+		  height: 300px;
+		  display: grid; }
+		.grid div {
+		  background-color: #f7e9e9;
+		  padding: 1em; }
